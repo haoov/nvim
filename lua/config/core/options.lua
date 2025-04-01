@@ -8,14 +8,14 @@ opt.signcolumn = "yes"
 -- Line & cursor 
 opt.relativenumber = true
 opt.number = true
-opt.cursorline = true
-opt.cursorcolumn = true
+opt.cursorline = false
+opt.cursorcolumn = false
 opt.colorcolumn = "80"
 opt.list = true
 vim.opt.listchars = {
-	space = '·',
-	tab = '→ ',
+	tab = '  ',
 	eol = '$',
+	space = '·'
 }
 
 -- Tabs & indentations
